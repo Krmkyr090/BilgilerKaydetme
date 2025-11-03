@@ -14,10 +14,6 @@ using namespace std;
 int main() {
     string dosyaAdi = "BİLGİLER.txt";
     ofstream dosya(dosyaAdi, ios::app);
-    if (!dosya) {
-        cout << "Dosya acilamadi!" << endl;
-        return 1;
-    }
     string ad, soyad;
     int yas;
     cout << "Adin ne? ";
